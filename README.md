@@ -8,7 +8,7 @@ The program does the following:
   5. Sets a string variable to the empty string.
   6. Creates a temporary variable with an initial value equal to the number entered from the keyboard.
   7. The loop with precondition is executed:
-     a) The variable's value is compared to zero. If it is greater than zero, the loop continues executing; otherwise, it terminates (Go to step 6).
+     a) The variable's value is compared to zero. If it is greater than zero, the loop continues executing; otherwise, it terminates (Go to step 8).
      b) The remainder of dividing the value of the temporary variable by 16 is calculated.
      c) It is translated as a symbol. The symbol code is calculated according to the following rules:
         Case 1. The remainder of a decimal fraction between 0 and 9 when divided by 16.
@@ -33,7 +33,7 @@ DecToHex. Занятия по VB.Net. Простой ввод/вывод. Стр
   5. Устанавливает строковую переменную в значение равное пустой строке.
   6. Создаёт временную переменную с первоначальным значением равным числу введённому с клавиатуры.
   7. Выполняется цикл с предусловием:
-     a) Значение переменной сравнивается с нулём. Если оно больше нуля, цикл продолжает выполняться, в противном случае завершается (Переход к пункту 6).
+     a) Значение переменной сравнивается с нулём. Если оно больше нуля, цикл продолжает выполняться, в противном случае завершается (Переход к пункту 8).
      b) Вычисляется остаток от деления значения временной переменной на 16.
      c) Он переводится символ. Код символа вычисляется по правилам:
         1-й случай. Остаток от деления на число 16 от 0 до 9. Используется формула:код символа "0" (число "48") + остаток от деления на 16.
