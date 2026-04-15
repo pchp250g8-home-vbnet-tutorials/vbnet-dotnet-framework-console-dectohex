@@ -17,7 +17,7 @@ The program does the following:
                 The formula used is: symbol code "A" (number "65") + remainder of a decimal fraction between 16 and 10.
         Case 3. The remainder of a decimal fraction between 10 and 15 when divided by 16. Hexadecimal letter format: lowercase.
                 The formula used is: symbol code "a" (number "97") + remainder of a decimal fraction between 16 and 10.
-        This symbol is added to the end of the string that was declared in point 3.
+        This symbol is added to the end of the string that was declared in point 5.
      d) The temporary variable is divided by 16.
   8. If the string remains empty after the loop completes, it is replaced with the character "0".
   9. The entered number and its hexadecimal number (the string that was declared in point 5) are displayed on the screen.
